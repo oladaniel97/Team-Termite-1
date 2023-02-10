@@ -81,6 +81,19 @@ nav ul li a:hover {
     transition-duration: 120ms;
 }
 
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    font-size: 2.5rem;
+    user-select: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
 a {
     text-decoration: none;
 }
