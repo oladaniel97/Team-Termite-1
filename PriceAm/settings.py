@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-e&(7&1ojr!d9icqihg-l29)@c=ac0&z!htuo$3fno1)p30hmoc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 
 
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'PriceAm.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
+
 
 # DATABASES = {
 #     'default': {
@@ -92,7 +92,7 @@ DATABASES = {
 #         'HOST': 'localhost',
 #         'PORT': '5432',
 #     }
-# }
+}
 
 # DATABASES = {
 #     'default': {
