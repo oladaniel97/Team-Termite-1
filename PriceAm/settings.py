@@ -76,22 +76,14 @@ WSGI_APPLICATION = 'PriceAm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    }
-
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'termites',
-#         'USER': 'postgres',
-#         'PASSWORD': 'oladan',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }}
+
+
+
 
 
 DATABASES = {
@@ -99,7 +91,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'DgmMMGqhjcRRm2lOdMpk',
+        'PASSWORD': 'IAT6eQJrCDbUgnr88zsR',
         'HOST': 'containers-us-west-156.railway.app',
         'PORT': '6957',
     }
@@ -140,7 +132,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'PriceAm/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'PriceAm/static'),
